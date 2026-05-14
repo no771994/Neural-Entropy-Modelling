@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=2.0,<3.0
+pandas>=2.0,<4.0
+scipy>=1.13
+matplotlib>=3.8
+
+# Deep learning (optional — fallback to numpy_lstm.py if unavailable)
+tensorflow>=2.15
+
+# Cryptography
+cryptography>=42.0
+
+# Notebook / dashboard
+jupyter>=1.0
+streamlit>=1.30
+plotly>=5.18
+
+# Hardware I/O (only needed if using the BH1750 sensor / Arduino over USB)
+pyserial>=3.5
